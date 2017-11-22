@@ -6,7 +6,9 @@
   },
   "require-dev": {
     "phalcon/zephir": "^0.10",
-    "nikic/fast-route": "*",
+    "slim/slim": "^3",
+    "container-interop/container-interop": "^1.2",
+    "nikic/fast-route": "^1.0",
     "pimple/pimple": "^3.0",
     "psr/cache": "^1.0",
     "psr/http-message": "^1.0",
