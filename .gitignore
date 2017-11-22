@@ -15,6 +15,7 @@ vendor
 
 # Project
 *.php
+!*.zep.php
 ide
 ext
 doc
