@@ -1,0 +1,16 @@
+{
+  "name": "pentagonal/apatis",
+  "license": "MIT",
+  "require": {
+      "php": ">= 7.0"
+  },
+  "require-dev": {
+    "phalcon/zephir": "^0.10",
+    "nikic/fast-route": "*",
+    "pimple/pimple": "^3.0",
+    "psr/cache": "^1.0",
+    "psr/http-message": "^1.0",
+    "psr/container": "^1.0",
+    "psr/log": "^1.0"
+  }
+}

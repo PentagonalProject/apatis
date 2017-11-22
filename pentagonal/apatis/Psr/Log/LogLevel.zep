@@ -1,0 +1,19 @@
+namespace Pentagonal\Apatis\Psr\Log;
+
+/**
+ * Describes log levels.
+ *
+ * Class LogLevel
+ * @package Pentagonal\Apatis\Psr\Log
+ */
+class LogLevel
+{
+    const EMERGENCY = "emergency";
+    const ALERT     = "alert";
+    const CRITICAL  = "critical";
+    const ERROR     = "error";
+    const WARNING   = "warning";
+    const NOTICE    = "notice";
+    const INFO      = "info";
+    const DEBUG     = "debug";
+}

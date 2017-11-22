@@ -1,0 +1,18 @@
+namespace Pentagonal\Apatis\Psr\Log;
+
+/**
+ * Describes a logger-aware instance.
+ *
+ * Interface LoggerAwareInterface
+ * @package Pentagonal\Apatis\Psr\Log
+ */
+interface LoggerAwareInterface
+{
+    /**
+     * Sets a logger instance on the object.
+     *
+     * @param LoggerInterface logger
+     * @return void
+     */
+    public function setLogger(<LoggerInterface> logger) -> void;
+}

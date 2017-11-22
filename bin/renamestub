@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+DIR="$(dirname $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd ))"
+if [ -d "$DIR/ide" ]; then
+    cd $DIR/ide
+    find . -type f -name "*.zep.php" | sed -e 'p' -E -e "s/.zep.php/.php/g" | xargs -n2 mv
+fi

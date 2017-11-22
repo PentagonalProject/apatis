@@ -1,0 +1,20 @@
+# editor
+.idea
+
+# temporary
+.temp
+
+# composer vendor
+vendor
+
+# composer lock
+*.lock
+
+# log files
+*.log
+
+# Project
+*.php
+ide
+ext
+doc
